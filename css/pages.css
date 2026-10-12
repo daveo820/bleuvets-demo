@@ -43,7 +43,8 @@ section{padding:clamp(3.5rem,8vw,6.5rem) 0}
 .sp-mosaic figure{margin:0;position:relative;overflow:hidden;border-radius:6px}
 .sp-mosaic img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
 .sp-mosaic figure:hover img{transform:scale(1.03)}
-.sp-mosaic .m1{grid-row:span 2;margin-left:clamp(-3rem,-3vw,0rem)}
+.sp-mosaic .m1{grid-row:span 2}
+@media (min-width:1400px){.sp-mosaic .m1{margin-left:-3rem}}
 .sp-mosaic figcaption{position:absolute;left:.75rem;bottom:.75rem;background:rgba(20,33,61,.85);color:#fff;font-size:14px;padding:.3rem .7rem;border-radius:999px}
 @media (max-width:800px){.sp-mosaic{grid-template-columns:1fr 1fr}.sp-mosaic .m1{grid-column:span 2;grid-row:auto;margin-left:0}}
 @media (max-width:480px){.sp-mosaic{grid-template-columns:1fr}.sp-mosaic .m1{grid-column:auto}}

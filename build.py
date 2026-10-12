@@ -19,7 +19,7 @@ CFG.update(base=BASE,name='Bleuvets',theme='#14213d',org=ORG,
  icon="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314213d'/%3E%3Ctext x='16' y='23' font-family='Georgia' font-size='20' font-weight='700' text-anchor='middle' fill='%23c9a24a'%3EB%3C/text%3E%3C/svg%3E",
  bar='Not the official Bleuvets site. Photos and details come from the public Airbnb listing for this home and are used for this pitch only.',
  nav=[('the-house.html','The house'),('theater.html','Theater'),('the-stay.html','Plan your stay'),('book.html','Book')],
- mark='<a class="mark" href="index.html" aria-label="Bleuvets home"><span class="b-badge" aria-hidden="true">B</span><span class="b-name"><b>Bleuvets</b><small>Dunlap Ranch &middot; Austin</small></span></a>',
+ mark='<a class="mark" href="index.html"><span class="b-badge" aria-hidden="true">B</span><span class="b-name"><b>Bleuvets</b><small>Dunlap Ranch &middot; Austin</small></span></a>',
  cta='<a class="btn" href="book.html">Check dates</a>',
  foot=f'''<footer class="foot"><div class="wrap">
 <div class="foot-spread"><div><p class="kicker" style="color:var(--brass)">{STUB} Your group, fourteen seats</p><p class="foot-big">Book the whole ranch.<br><a href="tel:{TEL}">{TEL_H}</a></p><p><a href="mailto:{MAIL}">{MAIL}</a></p></div>
